@@ -81,15 +81,15 @@ fuelup update && fuelup default latest
 mkdir fuel-project && cd fuel-project
 forc new counter-contract
 ```
-
-
+```
+sudo apt install vim
+```
 
 ### Editing Contract 
-![image](https://github.com/mztacat/Fuel-Contract-Deployment/assets/31314340/cba9e0b7-ecdf-401c-80ad-80c6f746c543)
 
 
 ```
-nano counter-contract/src/main.sw
+vim counter-contract/src/main.sw
 ```
 
 Clear/delete everything and paste below ```code```
@@ -124,7 +124,7 @@ impl Counter for Contract {
 ```
 
 
-### Save and exit with  ```Ctrl X + y ```  and click ``` ENTER ``` 
+### Save and exit with  ```ESC ```  and write by hand anywhere ``` :wqa ``` 
 
 --------------------------------------
 
