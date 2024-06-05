@@ -202,6 +202,19 @@ forc deploy --testnet
 
 # CONTRACT DEPLOYED 
 ----------
+### You can add to github
+```
+git init
+git add .
+git commit -m "Initial commit"
+```
+### For example, if your repository URL is https://github.com/uzytkownik/nazwa-repozytorium.git, the command will look like this:
+
+```
+git remote add origin https://github.com/uzytkownik/nazwa-repozytorium.git
+git branch -M main
+git push -u origin main
+```
 
 
 # EXPLORER 
